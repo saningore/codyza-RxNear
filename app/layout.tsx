@@ -1,20 +1,26 @@
 import type { Metadata } from "next";
-import { Public_Sans, Source_Serif_4 } from "next/font/google";
+import localFont from "next/font/local";
 import Link from "next/link";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import "./globals.css";
 import "maplibre-gl/dist/maplibre-gl.css";
 
-const sans = Public_Sans({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
+const sans = localFont({
+  src: "../fonts/public-sans-latin.woff2",
+  weight: "400 700",
+  style: "normal",
   variable: "--font-public",
+  display: "swap",
+  adjustFontFallback: "Arial",
 });
 
-const serif = Source_Serif_4({
-  subsets: ["latin"],
-  weight: ["600", "700"],
+const serif = localFont({
+  src: "../fonts/source-serif-4-latin.woff2",
+  weight: "600 700",
+  style: "normal",
   variable: "--font-source",
+  display: "swap",
+  adjustFontFallback: "Times New Roman",
 });
 
 export const metadata: Metadata = {
