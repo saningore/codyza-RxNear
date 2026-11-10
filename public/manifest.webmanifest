@@ -1,0 +1,10 @@
+{
+  "name": "RxNear",
+  "short_name": "RxNear",
+  "description": "Find pharmacies near a U.S. location from the federal NPI registry.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#0f6e56",
+  "icons": [{ "src": "/rxnear-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

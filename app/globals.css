@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-public), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source), ui-serif, Georgia, serif;
+  --color-paper: #f6f3ee;
+  --color-ink: #1c1917;
+  --color-pine: #0f6e56;
+  --color-deep: #0a3d32;
+  --color-card: #fffdfb;
+  --color-line: #e7e0d6;
+  --color-moss: #e7f3ef;
+  --color-clay: #7f1d1d;
+  --color-amber: #f4ead2;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-paper); color: var(--color-ink); }
+::selection { background: #d5ebe4; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 50;
+  border-radius: 999px;
+  background: var(--color-deep);
+  color: white;
+  padding: 0.6rem 1rem;
+}
+.skip-link:focus { top: 1rem; }
+
+.rx-popup .maplibregl-popup-content {
+  border-radius: 16px;
+  padding: 0.85rem 1rem;
+  color: #1c1917;
+  font-family: var(--font-public), ui-sans-serif, sans-serif;
+}
+.rx-popup-name {
+  margin: 0;
+  font-family: var(--font-source), ui-serif, Georgia, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.rx-popup-meta { margin: 0.35rem 0 0; font-size: 0.875rem; }
+.maplibregl-ctrl-attrib { font-size: 11px; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

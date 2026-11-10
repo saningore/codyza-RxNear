@@ -1,0 +1,78 @@
+{
+    "result_count":  1,
+    "results":  [
+                    {
+                        "addresses":  [
+                                          {
+                                              "address_1":  "6255 W. SUNSET BLVD.",
+                                              "address_2":  "21ST FLOOR",
+                                              "address_purpose":  "MAILING",
+                                              "address_type":  "DOM",
+                                              "city":  "LOS ANGELES",
+                                              "country_code":  "US",
+                                              "country_name":  "United States",
+                                              "fax_number":  "323-860-5315",
+                                              "postal_code":  "90028",
+                                              "state":  "CA",
+                                              "telephone_number":  "323-860-5281"
+                                          },
+                                          {
+                                              "address_1":  "224 WEST 29TH STREET",
+                                              "address_purpose":  "LOCATION",
+                                              "address_type":  "DOM",
+                                              "city":  "NEW YORK",
+                                              "country_code":  "US",
+                                              "country_name":  "United States",
+                                              "fax_number":  "323-860-5315",
+                                              "postal_code":  "10001",
+                                              "state":  "NY",
+                                              "telephone_number":  "323-860-5281"
+                                          }
+                                      ],
+                        "basic":  {
+                                      "authorized_official_first_name":  "KENNETH",
+                                      "authorized_official_last_name":  "CARRUTHERS",
+                                      "authorized_official_middle_name":  "SCOTT",
+                                      "authorized_official_name_prefix":  "--",
+                                      "authorized_official_name_suffix":  "--",
+                                      "authorized_official_telephone_number":  "3238605266",
+                                      "authorized_official_title_or_position":  "National Director of Pharmacy-Senio",
+                                      "enumeration_date":  "2012-05-11",
+                                      "last_updated":  "2012-05-15",
+                                      "organization_name":  "AIDS HEALTHCARE FOUNDATION",
+                                      "organizational_subpart":  "NO",
+                                      "status":  "A"
+                                  },
+                        "created_epoch":  "1336768832000",
+                        "endpoints":  [
+
+                                      ],
+                        "enumeration_type":  "NPI-2",
+                        "identifiers":  [
+
+                                        ],
+                        "last_updated_epoch":  "1337109130000",
+                        "number":  "1508125402",
+                        "other_names":  [
+                                            {
+                                                "code":  "3",
+                                                "organization_name":  "MOMS PHARMACY",
+                                                "type":  "Doing Business As"
+                                            }
+                                        ],
+                        "practiceLocations":  [
+
+                                              ],
+                        "taxonomies":  [
+                                           {
+                                               "code":  "333600000X",
+                                               "desc":  "Pharmacy",
+                                               "license":  null,
+                                               "primary":  true,
+                                               "state":  null,
+                                               "taxonomy_group":  ""
+                                           }
+                                       ]
+                    }
+                ]
+}
